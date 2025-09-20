@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_raman_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/2d7b1428-9c85-4256-b223-8c4964c8778f/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-raman-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>177b6472-7c1e-46c1-9957-93e82c6129b2</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
